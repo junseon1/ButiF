@@ -311,16 +311,18 @@ section .center h2{
 .sec3 .center, .sec4 .center{
     align-items: flex-start;
 }
-
+.sec3 .center .content, .sec4 .center .content{
+    width: 100%;
+}
 
 .sec3 .center .content h3, .sec4 .center .content h3{
     font-size: 22px;
 }
 .sec3 .center .content p, .sec4 .center .content p{
-    margin: 20px 0 0 5px;
+    margin: 50px 0 0 5px;
 }
 .sec3 .center .content button, .sec4 .center .content button{
-  margin-left: 280px;
+  float: right;
 }
 .sec3 .swiper, .sec4 .swiper{
     margin-top: 30px;
@@ -447,7 +449,7 @@ section .act .swiper-slide .image{
     margin-top: 5px;
 }
 .sec5 .statis ul li div span{
-    font-size: 30px;
+    font-size: 28px;
     margin-left: 50px;
     font-weight: bold;
 }
@@ -455,7 +457,7 @@ section .act .swiper-slide .image{
     font-size: 15px;
 }
 .sec5 .statis ul li i {
-    font-size: 22px;
+    font-size: 20px;
     display: block;
     margin-left: 40px;
     margin-top: 20px;
@@ -469,18 +471,22 @@ section .act .swiper-slide .image{
     align-items: flex-start;
 }
 .sec6 .center .content{
+    width: 100%;
     margin-left: 10px;
+}
+.sec6 .center .content p {
+    margin-top: 50px;
 }
 .sec6 .center .business p{
     margin: 0 0 0 20px;
     font-size: 20px;
     line-height: 25px;
     padding: 10px;
+
     
 }
 .sec6 .center button{
     float: right;
-    margin-left: 270px;
 }
 .sec6 .center .business{
     margin-top: 40px;
