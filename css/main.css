@@ -648,7 +648,7 @@ footer .info ul li a::after{
     right: 9px;
 }
 
-footer .info ul li:nth-child(4) a:after,
+footer .info ul li:nth-child(3) a:after,
 footer .info ul li:last-child a:after{
     display: none;
 }
@@ -809,6 +809,10 @@ footer .sns ul li {
     footer .footer1 .f_logo{
         width: 40vw;
     }
+    footer .footer1 .info{
+        width: 60%;
+    }
+    
 }
 
 /* ======================================================================= */
@@ -816,10 +820,13 @@ footer .sns ul li {
     @media screen and (min-width:1024px) {
         .center { width:100%; margin:0 auto; }
         .sec2, .sec4, .sec5, .sec6 {
-            padding: 12.5vw 10vw;
+            padding: 9vw 8vw;
         }
         .sec3{
-            padding: 0 10vw;
+            padding: 0 8vw;
+        }
+        footer{
+            padding: 9vw 8vw 11vw 8vw;
         }
         header{
             padding: 0 20px;
@@ -953,6 +960,15 @@ footer .sns ul li {
         footer .center .footer1 .f_logo{
             width: 25vw;
         }
+        footer .center .footer1 address{
+            margin-top: 4vw;
+        }
+        footer .center .footer1 .info{
+            margin-top: 4vw;
+        }
+        footer .info ul li:nth-child(4) a:after{
+            display: block;
+            }
     }
 
 /* ======================================================================= */
@@ -1483,11 +1499,11 @@ footer .sns ul li {
         width: 20vw;
     }
     footer .center .footer1 address{
-        margin-top: 5vw;
+        margin-top: 3vw;
         font-size:  12px;
     }
     footer .center .footer1 .info{
-        margin-top: 5vw;
+        margin-top: 3vw;
     }
     footer .center .footer2 {
         display: flex;
