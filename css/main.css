@@ -478,7 +478,8 @@ section .act .swiper-slide .image{
     margin-top: 50px;
 }
 .sec6 .center .business p{
-    margin: 0 0 0 20px;
+    margin:0 ;
+    margin-top: 5px;
     font-size: 20px;
     line-height: 25px;
     padding: 10px;
@@ -549,8 +550,13 @@ section .act .swiper-slide .image{
 .sec6 .center .business ul li div{
     width: 140px;
     float: right;
-    margin-top: 5px;
    
+}
+.sec6 .center .business ul .on9 .icon9{
+    height: 112px;
+}
+.sec6 .center .business ul .on9 .icon9 img{
+    height: 100%;
 }
 /* 각 section안의 ani 객체들이 서서히 나타나는 애니메이션 */
 .ani{
