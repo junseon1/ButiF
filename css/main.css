@@ -769,6 +769,9 @@ footer .sns ul li {
     .sec3 .center .swiper, .sec4 .center .swiper{
         padding: 5px;
     }
+    .sec3{
+        padding: 0 6vw;
+    }
     .sec3 .center .content, .sec4 .center .content{
         width: 100%;
         padding: 30px 20px;
@@ -801,6 +804,9 @@ footer .sns ul li {
     
     .sec6 .center .content p{
         margin-top: 100px;
+    }
+    .sec6 .center .business{
+        height: 950px;
     }
     .top{
         right: 60px;
