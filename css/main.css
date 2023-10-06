@@ -312,6 +312,7 @@ section .center h2{
     align-items: flex-start;
 }
 
+
 .sec3 .center .content h3, .sec4 .center .content h3{
     font-size: 22px;
 }
@@ -319,11 +320,12 @@ section .center h2{
     margin: 20px 0 0 5px;
 }
 .sec3 .center .content button, .sec4 .center .content button{
-  margin-left: 300px;
+  margin-left: 280px;
 }
 .sec3 .swiper, .sec4 .swiper{
     margin-top: 30px;
     width: 100%;
+    padding: 5px;
 }
 .sec3 .swiper .swiper-slide, .sec4 .swiper .swiper-slide{
     padding: 15px;
@@ -399,6 +401,9 @@ section .act .swiper-slide .image{
 }
 .sec4 .act .swiper-slide .img5{
     background-image: url(../img/activePic4-5.jpg);
+}
+.sec4 .center .swiper .swiper-wrapper .swiper-slide button{
+    display: none;
 }
 
 .sec5 {
