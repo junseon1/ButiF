@@ -899,6 +899,7 @@ footer .sns ul li {
         .sec3 .center .swiper{
             width: 80%;   
             padding-right: 30px;
+            margin: 0 auto;
         }
         .sec3 .center .swiper .swiper-wrapper .swiper-slide{
             margin: 5px 0 5px 5px;
@@ -909,6 +910,7 @@ footer .sns ul li {
         .sec4 .center .swiper{
             width: 80%;
             height: 90%;  
+            margin: 0 auto;
         }
         .sec4 .center .swiper .swiper-wrapper .swiper-slide .image{
             height: 250px;
