@@ -1,0 +1,154 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+li { list-style: none;}
+a { text-decoration: none; color: #212121; display: block; white-space: nowrap;}
+img { width: 100%;}
+header, section, footer {
+    width: 100%;
+}
+.wrap { width: 100%; }
+
+
+
+
+
+/* 모바일 버전 */
+.center { width: 100%; margin: 0 auto; }
+header {
+    height: 60px;
+    padding: 4%;
+}
+
+header .center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+
+header .center .logo {
+    /* 접속한 장치의 가로길이를 100%로 보고 그 길이의 32% */
+    /* %단위는 부모객체(.center)기준임 */
+    width: 31vw;
+}
+
+/* 모바일에서는 네비게이션 안보임 */
+header .center nav {
+    display: none;
+}
+
+header .center .top_menu {
+    width: 14vw;}
+
+header .center .top_menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 100%; */
+}
+
+header .center .top_menu ul li {
+    width: 6vw;
+}
+
+/* 메인슬라이드 - swiper */
+section .swiper .swiper-slide {
+    position: center;;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* 접속한 모바일 장치의 세로길이만큼 슬라이드 높이 설정 */
+    height: 100vh;
+}
+
+section .swiper .s1 {
+        background-image: url(../img/core/main1_mobile.png);
+}
+
+section .swiper .s2 {
+    background-image: url(../img/core/main2_mobile.png);
+}
+
+section .swiper .s3 {
+        background-image: url(../img/core/main3_mobile.png);
+}
+
+
+
+
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+/* 서브 섹션 2~6 */
+
+.sec2 {
+    width: 31vw; height: 20vw;
+}
+
+.sec2 .box {
+    width: 31vw; height: 20vw;
+    background-image: url(../img/sub_page/section2.jpg);
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec2 .box_cover {
+    width: 0; height: 0;
+    border-left: 100%;
+    border-bottom: 100%;
+    background-color: black;
+}
+
+.sec2 .box .maps {
+    width: 10vw;
+    position: absolute;
+    z-index: 100;
+    background-image: url(../img/sub_page/gallery.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+
+
+
+
+/* 미디어쿼리-태블릿버전 */
+@media screen and (min-width:768px) {
+    .center { width: 100%; margin: 0 auto; }
+}
+
+/* 미디어쿼리-pc버전 */
+@media screen and (min-width:1280px) {
+    /* 1440/1920*100 = 75%, 1200/1920*100 = 62.5% */
+    .center { width: 1200px; margin: 0 auto; }
+}
