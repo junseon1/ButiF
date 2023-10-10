@@ -54,7 +54,7 @@ header .center {
     justify-content: space-between;
     align-items: center;
 }
-header .center #logo {
+header .center #logo a{
     /* 접속한 장치의 가로길이를 100%로 보고 그 길이의 32% */
     /* %단위는 부모객체(.center)기준임 */
     width:170px;
@@ -179,7 +179,7 @@ header.minimize{
 header .center .top_menu ul li a .lang{
     stroke: #ffb300;
 }
-header.minimize .center #logo{
+header.minimize .center #logo a{
     background-image: url(../img/logo.png);
 }
 header.minimize .center .top_menu ul li a .lang{
@@ -838,7 +838,7 @@ footer .sns ul li {
             padding: 0 20px;
             height: 55px;
         }
-        header .center #logo{
+        header .center #logo a{
             width: 150px;
             height: 30px;
         }
@@ -972,6 +972,9 @@ footer .sns ul li {
         footer .center .footer1 .info{
             margin-top: 4vw;
         }
+        footer .info ul li:nth-child(3) a:after{
+            display: block;
+        }
         footer .info ul li:nth-child(4) a:after{
             display: block;
             }
@@ -991,7 +994,7 @@ footer .sns ul li {
     header .center{
         height: 74px;
     }
-    header .center #logo{
+    header .center #logo a{
         width: 200px;
         height: 45px;
     }
